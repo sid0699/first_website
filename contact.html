@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Lister digital</title>
+</head>
+
+
+<body>
+    <header class="container-fluid">
+        <div class="d-flex flex-wrap justify-content-center py-3 mb-4">
+            <a href="/index.html"
+                class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                <img class="banner" src="assets/images/logo.png">
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Marketing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Commerce</a></li>
+                <li class="nav-item"><a href="./contact.html" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            </ul>
+        </div>
+    </header>
+    <!--main banner!-->
+    <div class="container-fluid">
+        <img src="./assets/images/contact_banner.jpeg" class="img-fluid" alt="contact_banner" width="100%">
+        <div class="centered">How can we help you? Let us know</div>
+    </div>
+    <br><br>
+    <!--navigation menu small!-->
+    <section id="bredcrumbs">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ol>
+          </nav>
+
+    </section>
+
+
+    <main class="container">
+        <section class="mainhead">
+            <span>
+                <h1>General information</h1>
+            </span>
+            <br>
+            <span>
+                <h3>
+                    Please let us know the service you are interested in by completing the form below. Lister
+                    representative will contact you shortly
+                </h3>
+            </span><br>
+        </section>
+        <form class="col-md-6 offset-md-3">
+            <section class="name">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Originazation" aria-label="Originazation" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="job title" aria-label="job title" required>
+                    </div>
+                </div>
+            </section><br>
+
+
+            <section>
+                <div class="row">
+                    <div class=" col-md-3>
+                        <label for= " exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com" required>
+                    </div>
+                </div>
+                <br>
+                <label for="text">Type of query:</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected></option>
+                    <option value="1">company</option>
+                    <option value="2">job</option>
+                    <option value="3">report</option>
+                </select><br>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">How can we help?</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked required>
+                    <label class="form-check-label" for="flexSwitchCheckChecked">I acknowledge and agree to the Privacy
+                        Statement by Lister to protect the candidate′s data privacy</label>
+                </div><br>
+                <button type="button" class="btn btn-primary btn-lg">SUBMIT</button><br><br><br><br>
+            </section>
+    </main>
+
+
+    <!--Address Map -->
+    <section class="address-tab">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">Mylapore</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Perungudi</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false">San Mateo</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <address> 232, V M Street, Mylapore, Tamilnadu, India,Chennai – 600004,<Contact->+91-44-4225 2899
+                    </Contact->
+                </address><br><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62189.87971034055!2d80.23319207910156!3d13.044106000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52662e59584de7%3A0x7e531e255d743097!2sLister%20Technologies!5e0!3m2!1sen!2sin!4v1632161553316!5m2!1sen!2sin"
+                    width="80%" height="250px" style="border:1px;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <address> 232, V M Street, Mylapore, Tamilnadu, India,Chennai – 600004,<Contact->+91-44-4225 2899
+                    </Contact->
+                </address><br><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62208.41969551993!2d80.20910027910156!3d12.970173300000022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d6d9eb3dbc5%3A0x8b7737d1feb6fa3!2sLister%20Technologies!5e0!3m2!1sen!2sin!4v1632161493857!5m2!1sen!2sin"
+                    width="80%" height="250px" style="border:1px;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <address> 232, V M Street, Mylapore, Tamilnadu, India,Chennai – 600004,<Contact->+91-44-4225 2899
+                    </Contact->
+                </address><br><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62211.48596146235!2d80.22155916002636!3d12.957905867893164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d6d9eb3dbc5%3A0x8b7737d1feb6fa3!2sLister%20Technologies!5e0!3m2!1sen!2sin!4v1632161658300!5m2!1sen!2sin"
+                    width="80%" height="250px" style="border:1px;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+    <!--Address ends!-->
+
+
+    <footer class="py-5">
+        <hr>
+        <div class="row">
+            <div class="col-2">
+                <h5>Indstruies</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-2">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-2">
+                <h5>Section</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                </ul>
+            </div>
+
+            <div class="col-4 offset-1">
+                <form>
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of whats new and exciting from us.</p>
+                    <div class="d-flex w-100 gap-2">
+                        <label for="newsletter1" class="visually-hidden">Email address</label>
+                        <input id="newsletter1" type="text" class="form-control" placeholder="Email address" required>
+                        <button class="btn btn-primary" type="button">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
+            <p>© 2021 LISTER TECH, Inc. All rights reserved.</p>
+            <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#twitter"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#instagram"></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                            <use xlink:href="#facebook"></use>
+                        </svg></a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+</html>
